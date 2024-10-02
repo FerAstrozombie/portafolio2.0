@@ -1,0 +1,14 @@
+.descripcion{
+    text-align: justify;
+    width: 80%;
+    font-size: 1.2rem;
+}
+.fotoPerfil{
+    width: 300px;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

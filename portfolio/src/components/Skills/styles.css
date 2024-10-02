@@ -1,0 +1,12 @@
+.recuadro{
+    background-color: #ffffff26;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.imagenes{
+    width: 100px;
+}

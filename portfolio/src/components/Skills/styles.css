@@ -1,12 +1,26 @@
-.recuadro{
-    background-color: #ffffff26;
-    width: 150px;
-    height: 150px;
+.item img{
+    width: 100px;
+    pointer-events: none;
+}
+.item {
+    background-color: rgba(255, 255, 255, .15);
+    width: 200px; 
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 30px;
 }
-.imagenes{
-    width: 100px;
+.centrado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.skillsTec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }

@@ -1,16 +1,18 @@
 import "./styles.css"
+import imagenes from "../../exports/imagenes"
 
 const Skills = () => {
 
     return (
-        <div>
+        <div className="skillsTec">
             <h3>Skills tecnologicos</h3>
-            <div className="recuadro">
-                <img className="imagenes" src="../../../public/imagenes/logohtml.png" alt="" />
+            <div className="centrado">
+            {imagenes.map((image, id) =>(
+                        <div className="item" key={id}>
+                            <img src={image} alt=""></img>
+                        </div>
+                    ))}
             </div>
-            <div className="recuadro">
-                <img className="imagenes" src="../../../public/imagenes/logocss.png" alt="" />
-            </div>            
         </div>
     )
 }

@@ -1,16 +1,27 @@
 import "./styles.css"
 
-const Item = ({ nombre, gif, link, descripcion }) => {
+const Item = ({ nombre, img, link, descripcion, github }) => {
     return (
         <div className="proyectos" id="proyectos">
             <h4 className="proyectosTitulo">{nombre}</h4>
-            <img className="gifs" src={gif} alt={nombre} />
+            <img className="gifs" src={img} alt={nombre} />
             <div className="descripcion">
                 <p className="parrafoProyectos">{descripcion}</p>
             </div>
-            <a className="linksProyectos" href={link} target="blank">
-                <button className="botonDemo">Demo</button>
-            </a>
+            <div className="linksFlex">
+                <div className="flexLink">
+                    <h4>Link</h4>
+                    <a className="linksProyectos" href={link} target="blank">
+                        <button className="botonDemo">Probar</button>
+                    </a>
+                </div>
+                <div className="flexLink">
+                    <h4>Repositorio</h4>
+                    <a className="linksProyectos" href={github} target="_blank" rel="noopener noreferrer">
+                        <img id="tamañoLogos" src="../../../public/imagenes/logogithub.png" alt={nombre} />
+                    </a>
+                </div>
+            </div>
         </div>
     )
 }

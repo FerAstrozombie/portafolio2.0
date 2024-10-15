@@ -42,7 +42,22 @@
 }
 .botonDemo:hover {
     color: rgba(255, 255, 255, 1);
-    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    box-shadow: 0 4px 16px #8a2be2;
     transition: all 0.2s ease;
     cursor: pointer;
+}
+.linksFlex{
+    display: flex;
+    gap: 30px;
+}
+.flexLink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#tamañoLogos{
+    width: 50px;
+}
+#tamañoLogos:hover{
+    transform: scale(1.2);
 }

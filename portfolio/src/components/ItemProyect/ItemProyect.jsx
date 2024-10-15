@@ -12,9 +12,10 @@ const ItemProyect = ({lista}) => {
                 <Item 
                     key={nombre}
                     nombre={proyecto.nombre}
-                    gif={proyecto.gif}
+                    img={proyecto.img}
                     link={proyecto.link}
                     descripcion={proyecto.descripcion}
+                    github={proyecto.github}
                 />))
             }
         </div>

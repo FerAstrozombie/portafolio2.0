@@ -18,7 +18,7 @@ const Item = ({ nombre, img, link, descripcion, github }) => {
                 <div className="flexLink">
                     <h4>Repositorio</h4>
                     <a className="linksProyectos" href={github} target="_blank" rel="noopener noreferrer">
-                        <img id="tamañoLogos" src="../../../public/imagenes/logogithub.png" alt={nombre} />
+                        <img id="tamañoLogos" src="/imagenes/logogithub.png" alt={nombre} />
                     </a>
                 </div>
             </div>

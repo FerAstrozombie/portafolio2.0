@@ -71,4 +71,9 @@
     #tamañoLogos{
         margin: 0px;
     }
+    .proyectosTitulo{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 1.2rem;
+    }
 }

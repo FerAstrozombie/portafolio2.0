@@ -24,6 +24,9 @@
     align-items: center;
     gap: 30px;
 }
+.skills{
+    font-size: 2rem;
+}
 @media screen and (max-width: 780px){
     .slider {
         width: 300px;
@@ -46,5 +49,8 @@
     }
     .centrado{
         gap: 10px;
+    }
+    .skills{
+        font-size: 1.2rem;
     }
 }

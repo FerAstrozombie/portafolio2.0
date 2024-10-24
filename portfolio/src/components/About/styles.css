@@ -4,7 +4,7 @@
     font-size: 1.2rem;
 }
 .fotoPerfil{
-    width: 300px;
+    width: 400px;
 }
 .about{
     display: flex;
@@ -21,17 +21,11 @@
         justify-content: center;
         align-items: center;
     }
-    span {
-        font-size: 1.1rem;
-    }
-    .fotoPerfil {
-        margin-left: 0px;
-    }
-    .flexText{
-        margin: 0 10px 0 10px;
-    }
     .descripcion{
         font-size: 1rem;
         width: 100%;
+    }
+    .descripcion{
+        font-size: 1rem;
     }
 }

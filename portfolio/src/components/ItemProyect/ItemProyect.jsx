@@ -5,7 +5,7 @@ const ItemProyect = ({lista}) => {
     return(
         (
         <>
-            <h2 className="cursoTitulo">Proyectos</h2>
+            <h2 className="cursoTitulo"><span> &lt; Proyectos 📝 /&gt; </span></h2>
         <div className="flexProyectos">
             {
                 lista.map((proyecto, nombre) => (

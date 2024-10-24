@@ -1,24 +1,37 @@
-#tamañoLogos {
+#tamañoLogosFooter {
     width: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
 }
-#tamañoLogos:hover{
+#tamañoLogosFooter:hover{
     transform: scale(1.2);
+}
+.flexEmail{
+    display: flex;
+    align-items: center;
+}
+.icono{
+    width: 50px;
+    height: 50px;
 }
 .footerFlex {
     display: flex;
-    justify-content: center;
-    margin-top: 50px;
+    justify-content: space-evenly;
+    margin:50px 0 50px 0;
+}
+.email{
+    margin-left: 30px;
 }
 @media screen and (max-width: 780px){
     .flexEmail{
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
     }
-    #tamañoLogos{
+    .email{
+        font-size: 0.8rem;
+        margin-left: 10px;
+    }
+    #tamañoLogosFooter{
         margin: 5px;
         background-color: transparent;
+        width: 40px;
     }
 }

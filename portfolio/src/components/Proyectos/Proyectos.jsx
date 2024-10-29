@@ -10,6 +10,7 @@ const Proyectos = () => {
         setProyectList(data);
     },[])
     const getProyects = new Promise((resolve) =>{
+        
         resolve(data);
     })
 

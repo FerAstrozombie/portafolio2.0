@@ -9,7 +9,7 @@ const ItemProyect = ({lista}) => {
         <div className="flexProyectos">
             {
                 lista.map((proyecto, nombre) => (
-                <Item 
+                    <Item
                     key={nombre}
                     nombre={proyecto.nombre}
                     img={proyecto.img}
